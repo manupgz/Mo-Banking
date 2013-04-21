@@ -12,5 +12,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name="NewAccountView"
+                  android:label="NewAccount">
+        </activity>
+        <activity android:name="SeeStatusView"
+                  android:label="SeeStatus">
+        </activity>
     </application>
 </manifest>

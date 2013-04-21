@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:gravity="center_horizontal">
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_newAccount_AccName" android:layout_gravity="center_horizontal"
+            android:phoneNumber="false" android:selectAllOnFocus="false" android:singleLine="false"
+            android:hint="New Account Name" android:autoText="false" android:width="275px"
+            android:inputType="text"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_newAccount_AccNumber" android:layout_gravity="center" android:hint="Account Number"
+            android:autoText="false" android:width="275px" android:inputType="text"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_newAccount_BankName" android:layout_gravity="center" android:hint="Bank Name"
+            android:autoText="false" android:width="275px" android:inputType="text"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_gravity="center" android:baselineAligned="false"
+            android:paddingTop="290dp" android:gravity="center_horizontal">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:id="@+id/bt_newAccount_Back" android:layout_gravity="center_horizontal|top"
+                android:width="80dp"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:id="@+id/bt_newAccount_Save" android:layout_gravity="center_horizontal|top"
+                android:width="80dp"/>
+    </LinearLayout>
+</LinearLayout>
