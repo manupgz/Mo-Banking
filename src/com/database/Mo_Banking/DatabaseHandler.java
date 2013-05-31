@@ -14,6 +14,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     private static final int DB_VERSION           = 1;
     private static final String DB_NAME           = "userDetailInformation";
     private static final String DB_TABLE_ACCOUNTS = "accounts";
+    private static final String HELLO_MANOLO      = "wololo";
 
     private static final String KEY_ID            = "id";
     private static final String KEY_ACC_NUMBER    = "account_number";
